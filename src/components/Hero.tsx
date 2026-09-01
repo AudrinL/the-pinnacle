@@ -41,9 +41,9 @@ export default function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative h-[100svh] min-h-[600px] w-full bg-limestone p-2 md:p-3"
+      className="relative h-[100svh] min-h-[600px] w-full bg-limestone"
     >
-      <div className="relative h-full w-full overflow-hidden rounded-[clamp(28px,3.5vw,52px)] bg-espresso">
+      <div className="relative h-full w-full overflow-hidden bg-espresso">
         <div ref={videoWrapRef} className="absolute inset-0 will-change-transform">
           <video
             className="h-full w-full object-cover"
