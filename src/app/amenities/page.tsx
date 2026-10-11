@@ -93,7 +93,7 @@ export default function AmenitiesPage() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <div className="mb-6 h-px w-16 bg-white/30" />
-          <h1 className="font-serif text-5xl font-light tracking-[0.08em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
+          <h1 className="font-serif text-5xl font-normal tracking-[0.08em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
             AMENITIES
           </h1>
           <div className="mt-6 h-px w-24 bg-white/20" />
@@ -131,7 +131,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-10">
-                <h3 className="font-serif text-2xl font-light text-white md:text-3xl">
+                <h3 className="font-serif text-2xl font-normal text-white md:text-3xl">
                   {amenities[0].title}
                 </h3>
                 <p className="mt-2 max-w-sm font-sans text-sm text-white/80">
@@ -153,7 +153,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h3 className="font-serif text-xl font-light text-white md:text-2xl">
+                <h3 className="font-serif text-xl font-normal text-white md:text-2xl">
                   {amenities[1].title}
                 </h3>
                 <p className="mt-1 max-w-xs font-sans text-sm text-white/80">
@@ -175,7 +175,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h3 className="font-serif text-xl font-light text-white md:text-2xl">
+                <h3 className="font-serif text-xl font-normal text-white md:text-2xl">
                   {amenities[2].title}
                 </h3>
                 <p className="mt-1 max-w-xs font-sans text-sm text-white/80">
@@ -197,7 +197,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h3 className="font-serif text-xl font-light text-white md:text-2xl">
+                <h3 className="font-serif text-xl font-normal text-white md:text-2xl">
                   {amenities[3].title}
                 </h3>
                 <p className="mt-1 max-w-xs font-sans text-sm text-white/80">
@@ -219,7 +219,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h3 className="font-serif text-xl font-light text-white md:text-2xl">
+                <h3 className="font-serif text-xl font-normal text-white md:text-2xl">
                   {amenities[4].title}
                 </h3>
                 <p className="mt-1 max-w-xs font-sans text-sm text-white/80">
@@ -241,7 +241,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-10">
-                <h3 className="font-serif text-2xl font-light text-white md:text-3xl">
+                <h3 className="font-serif text-2xl font-normal text-white md:text-3xl">
                   {amenities[5].title}
                 </h3>
                 <p className="mt-2 max-w-sm font-sans text-sm text-white/80">
@@ -263,7 +263,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h3 className="font-serif text-xl font-light text-white md:text-2xl">
+                <h3 className="font-serif text-xl font-normal text-white md:text-2xl">
                   {amenities[6].title}
                 </h3>
                 <p className="mt-1 max-w-xs font-sans text-sm text-white/80">
@@ -285,7 +285,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h3 className="font-serif text-xl font-light text-white md:text-2xl">
+                <h3 className="font-serif text-xl font-normal text-white md:text-2xl">
                   {amenities[7].title}
                 </h3>
                 <p className="mt-1 max-w-xs font-sans text-sm text-white/80">
@@ -307,7 +307,7 @@ export default function AmenitiesPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6 md:p-8">
-                <h3 className="font-serif text-xl font-light text-white md:text-2xl">
+                <h3 className="font-serif text-xl font-normal text-white md:text-2xl">
                   {amenities[8].title}
                 </h3>
                 <p className="mt-1 max-w-xs font-sans text-sm text-white/80">
@@ -330,7 +330,7 @@ export default function AmenitiesPage() {
         />
         <div className="relative z-10 flex flex-col items-center justify-center px-6 text-center">
           <div className="mx-auto mb-8 h-px w-12 bg-gold/60" />
-          <p className="font-serif text-2xl font-light italic text-white/90 md:text-3xl lg:text-4xl">
+          <p className="font-serif text-2xl font-normal italic text-white/90 md:text-3xl lg:text-4xl">
             A passion project from our family to yours.
           </p>
           <div className="mx-auto mt-8 h-px w-12 bg-gold/60" />
@@ -348,7 +348,7 @@ export default function AmenitiesPage() {
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex min-h-[60vh] flex-col items-center justify-center px-6 text-center">
-          <h2 className="font-serif text-4xl font-light tracking-tight text-white md:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-4xl font-normal tracking-tight text-white md:text-5xl lg:text-6xl">
             BOOK YOUR STAY
           </h2>
           <div className="mt-10">

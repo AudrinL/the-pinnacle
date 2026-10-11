@@ -221,7 +221,7 @@ export default function RoomsPage() {
           <h1 className="editorial-headline text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-4">
             ROOMS &amp; SUITES
           </h1>
-          <p className="font-serif text-lg sm:text-xl md:text-2xl text-white/80 font-light italic tracking-wide">
+          <p className="font-serif text-lg sm:text-xl md:text-2xl text-white/80 font-normal italic tracking-wide">
             Every Room with a View
           </p>
         </div>

@@ -20,7 +20,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-charcoal/60" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <div className="mb-6 h-px w-16 bg-white/30" />
-          <h1 className="font-serif text-5xl font-light tracking-[0.08em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
+          <h1 className="font-serif text-5xl font-normal tracking-[0.08em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
             OUR STORY
           </h1>
           <div className="mt-6 h-px w-24 bg-white/20" />
@@ -47,7 +47,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-[1440px] px-6 md:px-10 lg:px-16">
           <div className="mx-auto max-w-4xl text-center">
             <div className="mx-auto mb-8 h-px w-12 bg-gold" />
-            <blockquote className="font-serif text-3xl font-light italic leading-snug text-charcoal md:text-4xl lg:text-5xl">
+            <blockquote className="font-serif text-3xl font-normal italic leading-snug text-charcoal md:text-4xl lg:text-5xl">
               &ldquo;In our family, good times are best shared.&rdquo;
             </blockquote>
             <div className="mx-auto mt-8 h-px w-12 bg-gold" />
@@ -99,7 +99,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-start">
               <span className="section-label mb-6 text-white/30">RECOGNITION</span>
               <div className="mb-6 h-px w-8 bg-gold" />
-              <h3 className="font-serif text-2xl font-light text-white md:text-3xl">
+              <h3 className="font-serif text-2xl font-normal text-white md:text-3xl">
                 Named one of TIME&apos;s
                 <br />
                 World&apos;s Greatest Places 2026
@@ -122,7 +122,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-start">
               <span className="section-label mb-6 text-white/30">GUIDE</span>
               <div className="mb-6 h-px w-8 bg-gold" />
-              <h3 className="font-serif text-2xl font-light text-white md:text-3xl">
+              <h3 className="font-serif text-2xl font-normal text-white md:text-3xl">
                 Michelin Guide
                 <br />
                 Featured
@@ -158,7 +158,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-[1440px] px-6 md:px-10 lg:px-16">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mx-auto mb-8 h-px w-12 bg-gold" />
-            <p className="font-serif text-xl font-light italic leading-relaxed text-charcoal md:text-2xl">
+            <p className="font-serif text-xl font-normal italic leading-relaxed text-charcoal md:text-2xl">
               Let us set the stage for good-natured banter over dishes
               you&apos;ll remember for a while, make memories to mull on long
               after you&apos;ve gone. In the fullness of your time here, we hope
@@ -180,7 +180,7 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex min-h-[60vh] flex-col items-center justify-center px-6 text-center">
-          <h2 className="font-serif text-4xl font-light tracking-tight text-white md:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-4xl font-normal tracking-tight text-white md:text-5xl lg:text-6xl">
             BOOK YOUR STAY
           </h2>
           <div className="mt-10">

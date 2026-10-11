@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=Hanken+Grotesk:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400..700;1,400..700&family=Jost:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme inline {
@@ -26,8 +26,9 @@
   --radius-full: 999px;
 
   /* ---- Type ---- */
-  --font-display: "Fraunces", "Times New Roman", serif;
-  --font-sans: "Hanken Grotesk", system-ui, -apple-system, sans-serif;
+  --font-display: "Cormorant", "Cormorant Garamond", Garamond, serif;
+  --font-serif: "Cormorant", "Cormorant Garamond", Garamond, serif;
+  --font-sans: "Jost", system-ui, -apple-system, sans-serif;
 
   /* ---- Motion ---- */
   --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
@@ -74,9 +75,9 @@
 
   h1, h2, h3, h4 {
     font-family: var(--font-display);
-    font-weight: 350;
+    font-weight: 500;
     font-optical-sizing: auto;
-    letter-spacing: -0.021em;
+    letter-spacing: -0.01em;
     line-height: 1;
     color: var(--color-ink);
   }
@@ -139,8 +140,8 @@
 
   .display {
     font-family: var(--font-display);
-    font-weight: 340;
-    letter-spacing: -0.022em;
+    font-weight: 500;
+    letter-spacing: -0.01em;
     line-height: 0.98;
     text-wrap: balance;
   }
@@ -161,7 +162,7 @@
   .quote {
     font-family: var(--font-display);
     font-style: italic;
-    font-weight: 340;
+    font-weight: 500;
     letter-spacing: -0.015em;
     line-height: 1.15;
   }
@@ -310,8 +311,8 @@
   /* ---- Legacy helpers (sub-pages, pending their own redesign) ---- */
   .editorial-headline {
     font-family: var(--font-display);
-    font-weight: 340;
-    letter-spacing: -0.022em;
+    font-weight: 500;
+    letter-spacing: -0.01em;
     line-height: 1;
   }
   .section-label {

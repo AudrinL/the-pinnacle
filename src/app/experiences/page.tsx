@@ -20,7 +20,7 @@ export default function ExperiencesPage() {
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
           <div className="mb-6 h-px w-16 bg-white/30" />
-          <h1 className="font-serif text-5xl font-light tracking-[0.08em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
+          <h1 className="font-serif text-5xl font-normal tracking-[0.08em] text-white sm:text-6xl md:text-7xl lg:text-8xl">
             EXPERIENCES
           </h1>
           <div className="mt-6 h-px w-24 bg-white/20" />
@@ -113,7 +113,7 @@ export default function ExperiencesPage() {
         <div className="mx-auto max-w-[1440px] px-6 md:px-10 lg:px-16">
           <div className="mx-auto max-w-3xl text-center">
             <span className="section-label mb-6 block text-white/30">CULTURAL EXPERIENCES</span>
-            <h2 className="font-serif text-3xl font-light text-white md:text-4xl lg:text-5xl">
+            <h2 className="font-serif text-3xl font-normal text-white md:text-4xl lg:text-5xl">
               Curated cultural experiences
               <br />
               throughout East Africa
@@ -127,7 +127,7 @@ export default function ExperiencesPage() {
         <div className="mx-auto max-w-[1440px] px-6 md:px-10 lg:px-16">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mx-auto mb-8 h-px w-12 bg-gold" />
-            <p className="font-serif text-xl font-light italic leading-relaxed text-charcoal md:text-2xl">
+            <p className="font-serif text-xl font-normal italic leading-relaxed text-charcoal md:text-2xl">
               After your unforgettable offsite adventures, unwind at The
               Pinnacle, savoring warm meals, refreshing drinks, and breathtaking
               sunsets over Kigali&apos;s thousand hills.
@@ -148,7 +148,7 @@ export default function ExperiencesPage() {
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex min-h-[60vh] flex-col items-center justify-center px-6 text-center">
-          <h2 className="font-serif text-4xl font-light tracking-tight text-white md:text-5xl lg:text-6xl">
+          <h2 className="font-serif text-4xl font-normal tracking-tight text-white md:text-5xl lg:text-6xl">
             PLAN YOUR EXPERIENCE
           </h2>
           <div className="mt-10">

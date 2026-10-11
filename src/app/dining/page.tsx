@@ -115,7 +115,7 @@ export default function DiningPage() {
           <h1 className="editorial-headline text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl mb-4">
             DINING
           </h1>
-          <p className="font-serif text-lg sm:text-xl md:text-2xl text-white/80 font-light italic tracking-wide">
+          <p className="font-serif text-lg sm:text-xl md:text-2xl text-white/80 font-normal italic tracking-wide">
             Fine Dining on top of Kigali Hills
           </p>
         </div>
@@ -200,7 +200,7 @@ export default function DiningPage() {
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
-                <h3 className="font-serif text-2xl font-light text-charcoal mb-2">
+                <h3 className="font-serif text-2xl font-normal text-charcoal mb-2">
                   {venue.name}
                 </h3>
                 <p className="font-sans text-[11px] tracking-[0.15em] text-muted uppercase mb-4">
@@ -231,7 +231,7 @@ export default function DiningPage() {
               />
             </div>
             <div className="max-w-2xl">
-              <h3 className="font-serif text-2xl font-light text-charcoal mb-2">
+              <h3 className="font-serif text-2xl font-normal text-charcoal mb-2">
                 {venues[3].name}
               </h3>
               <p className="font-sans text-[11px] tracking-[0.15em] text-muted uppercase mb-4">
@@ -264,7 +264,7 @@ export default function DiningPage() {
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>
-                <h3 className="font-serif text-xl font-light text-charcoal mb-1">
+                <h3 className="font-serif text-xl font-normal text-charcoal mb-1">
                   {venue.name}
                 </h3>
                 <p className="font-sans text-[10px] tracking-[0.15em] text-muted uppercase mb-3">
@@ -297,7 +297,7 @@ export default function DiningPage() {
               />
             </div>
             <div className="max-w-2xl">
-              <h3 className="font-serif text-2xl font-light text-charcoal mb-2">
+              <h3 className="font-serif text-2xl font-normal text-charcoal mb-2">
                 {venues[7].name}
               </h3>
               <p className="font-sans text-[11px] tracking-[0.15em] text-muted uppercase mb-4">
